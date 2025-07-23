@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>首页 on 脑冻的洞</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in 首页 on 脑冻的洞</description>
+    <title>文章 on 脑冻的洞</title>
+    <link>http://localhost:1313/zh/posts/</link>
+    <description>Recent content in 文章 on 脑冻的洞</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 23 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/zh/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CSS 边框渐变</title>
-      <link>http://localhost:1313/posts/css-border-gradient/</link>
+      <link>http://localhost:1313/zh/posts/css-border-gradient/</link>
       <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/css-border-gradient/</guid>
+      <guid>http://localhost:1313/zh/posts/css-border-gradient/</guid>
       
       <description>&lt;p&gt;最近在业务开发中，遇到一个需求：实现一个有渐变边框且边框可以旋转的盒子.&lt;/p&gt;
 &lt;p&gt;我一开始的思路是比较常规的 &amp;ndash; 用两个盒子叠加. 下面的盒子设置渐变背景, 加上 &lt;code&gt;rotate&lt;/code&gt; 动画; 上面的盒子放内容, 尺寸比下面的小一圈(也就是边框的宽度). 这个方法理论上可行, 但实际效果并不好, 还需要手动计算宽度与高度.&lt;/p&gt;
@@ -43,17 +43,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;inherits&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;false&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-      
-    </item>
-    
-    <item>
-      <title>关于</title>
-      <link>http://localhost:1313/pages/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/pages/about/</guid>
-      
-      <description></description>
       
     </item>
     

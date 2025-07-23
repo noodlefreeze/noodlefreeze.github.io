@@ -1,13 +1,7 @@
 title = '脑冻的洞'
 baseURL = 'https://noodlefreeze.github.io'
 
-languageCode = 'zh-cn'
-defaultContentLanguage = 'zh-cn'
-
 theme = 'hugo-blog-awesome'
-
-[params]
-  dateFormat = "2006年01月02日"
 
 [markup]
   [markup.goldmark]
@@ -17,3 +11,44 @@ theme = 'hugo-blog-awesome'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[Languages.zh-cn]
+  languageName = "Chinese"
+  languageCode = "zh-cn"
+  contentDir = "content/zh"
+  weight = 1
+  
+  [Languages.zh-cn.menu]
+  [[Languages.zh-cn.menu.main]]
+    pageRef="/"
+    name = '首页'
+    url = '/'
+    weight = 10
+  [[Languages.zh-cn.menu.main]]
+    pageRef="posts"
+    name = '文章'
+    url = '/posts/'
+    weight = 20
+  [[Languages.zh-cn.menu.main]]
+    pageRef="about"
+    name = '关于'
+    url = '/about/'
+    weight = 30
+
+[Languages.zh-cn.params]
+  sitename = "脑冻的洞"
+  defaultColor = "auto" # set color mode: dark, light, auto
+  mainSections = ['posts']
+  dateFormat = "2006年01月02日" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/noodlefreeze"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com/lenianwain"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "/index.xml"

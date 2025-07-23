@@ -1,0 +1,4 @@
+.gradient-border{border:2px solid transparent;border-radius:12px;height:3rem;width:70%;margin:auto;animation:4s rotate linear infinite}.dark .gradient-border{background:linear-gradient(black,black)padding-box,linear-gradient(var(--angle),#e18728,#326eef)border-box}.light .gradient-border{background:linear-gradient(white,white)padding-box,linear-gradient(var(--angle),#e18728,#326eef)border-box}@keyframes rotate{to{--angle:360deg}}@property --angle{syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
