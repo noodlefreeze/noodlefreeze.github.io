@@ -41,6 +41,12 @@ theme = 'hugo-blog-awesome'
   mainSections = ['posts']
   dateFormat = "2006年01月02日" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
 
+  [Languages.zh-cn.params.author]
+    avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+    intro = "脑冻的洞"
+    name = "noodlefreeze"
+    description = "YOU ARE FROZEN"
+
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/noodlefreeze"
