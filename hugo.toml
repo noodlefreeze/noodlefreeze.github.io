@@ -45,7 +45,7 @@ theme = 'hugo-blog-awesome'
     avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
     intro = "脑冻的洞"
     name = "noodlefreeze"
-    description = "YOU ARE FROZEN"
+    description = "You are... froze! ❄️"
 
 [[params.socialIcons]]
 name = "github"
