@@ -14,6 +14,8 @@ author: '脑冻'
 
 后来接触了滑板, 也坚持了一年左右, 直到某次冲坡失误, 差点把滑板砍到人, 才慢慢放下了. 说实话, 那次是真的摔怕了. 
 
+钓鱼佬, 无需多言.
+
 我喜欢摇滚乐更多一些, 最喜欢的歌手是 [Bon Jovi](https://zh.wikipedia.org/wiki/%E9%82%A6%E5%96%AC%E9%A3%9B), 而最爱的单曲是 [Free Bird](https://www.youtube.com/watch?v=0LwcvjNJTuM&list=RD0LwcvjNJTuM&start_radio=1). 
 
 最近我开始学习电吉他. 等哪天我能完整弹下 [Free Bird](https://www.youtube.com/watch?v=0LwcvjNJTuM&list=RD0LwcvjNJTuM&start_radio=1), 我一定会分享出来的 😁. 
