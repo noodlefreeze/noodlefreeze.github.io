@@ -4,9 +4,15 @@
   height: 3rem;
   width: 70%;
   margin: auto;
-
-  background: linear-gradient(white, white) padding-box, linear-gradient(var(--angle), #e18728, #326eef) border-box;
   animation: 4s rotate linear infinite;
+}
+
+.dark .gradient-border {
+  background: linear-gradient(black, black) padding-box, linear-gradient(var(--angle), #e18728, #326eef) border-box;
+}
+
+.light .gradient-border {
+  background: linear-gradient(white, white) padding-box, linear-gradient(var(--angle), #e18728, #326eef) border-box;
 }
 
 @keyframes rotate {
