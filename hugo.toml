@@ -2,6 +2,7 @@ title = '脑冻的洞'
 baseURL = 'https://noodlefreeze.github.io'
 
 theme = 'hugo-blog-awesome'
+buildFuture = true
 
 [markup]
   [markup.goldmark]

@@ -2,6 +2,7 @@
 title: "CSS 边框渐变"
 date: 2025-07-23
 author : "脑冻"
+description: "CSS边框渐变的实现方法和动画效果"
 css: ["border-gradient.css"]
 ---
 
