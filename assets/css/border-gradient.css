@@ -1,0 +1,22 @@
+.gradient-border {
+  border: 2px solid transparent;
+  border-radius: 12px;
+  height: 3rem;
+  width: 70%;
+  margin: auto;
+
+  background: linear-gradient(white, white) padding-box, linear-gradient(var(--angle), #e18728, #326eef) border-box;
+  animation: 4s rotate linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}

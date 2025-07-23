@@ -1,0 +1,15 @@
+title = '脑冻的洞'
+baseURL = 'https://noodlefreeze.github.io'
+
+languageCode = 'zh-cn'
+defaultContentLanguage = 'zh-cn'
+
+theme = 'hugo-blog-awesome'
+
+[params]
+  dateFormat = "2006年01月02日"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
