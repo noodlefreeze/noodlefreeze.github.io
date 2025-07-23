@@ -23,6 +23,40 @@ p > code {
   border-radius: 2px;
   border: 1px solid rgba(128,128,128,0.1);
 }
+// Code block wrapper for copy button
+.code-block-wrapper {
+  position: relative;
+  
+  .copy-code-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.25rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    transition: all 0.2s ease;
+    z-index: 10;
+    
+    &:hover {
+      background: rgba(255, 255, 255, 0.2);
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+    
+    &.copied {
+      background: rgba(34, 197, 94, 0.2);
+      border-color: rgba(34, 197, 94, 0.3);
+    }
+    
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}
+
 // Codeblock Theme
 pre {
   background-color: #1a1b21;
