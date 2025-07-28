@@ -19,7 +19,7 @@ description: "React 性能优化中, key 与 memo 的区别"
 - 执行组件(组件即函数)
 - 生成新的虚拟 DOM
 - 对比新旧虚拟 DOM
-- 根据差异更新真是 DOM
+- 根据差异更新真实 DOM
 
 ## `key` 的作用: 辅助 diff 算法复用 DOM
 
