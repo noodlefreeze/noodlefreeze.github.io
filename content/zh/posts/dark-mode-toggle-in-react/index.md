@@ -19,7 +19,7 @@ description: "在 React App 中, 设置暗黑模式的合理方式"
 
     if (t === 'dark') {
       document.documentElement.classList.add('dark')
-    } else if (t === 'light') {
+    } else {
       document.documentElement.classList.remove('dark')
     }
   }
