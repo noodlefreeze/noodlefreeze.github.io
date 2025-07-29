@@ -1,6 +1,6 @@
 ---
 title: "React(二): 避免副作用函数反复创建的小技巧"
-date: 2025-07-29
+date: 2025-07-30
 author: "脑冻"
 description: "通过 useRef 优化副作用函数注册频率，提升 React 应用性能"
 ---
